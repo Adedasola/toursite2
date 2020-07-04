@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header h1 {
+    padding-top: 50px;
+    font-size: 48px;
+    font-family: Montserrat;
+}
+
+.header p {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 16px;
+    font-family: Montserrat;
+}
+
+.header {
+    text-align: center;
+}
+.container h3 {
+    font-size: 24px;
+    padding-top: 10px;
+    font-family: Montserrat;
+}
+.container fluid img {
+    text-align: center;
+}
+
+.p {
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 200px;
+}
+
+.arrow p {
+    font-family: Montserrat;
+    margin-right: 180px;
+    font-size: 16px;
+    margin-top: 0%;
+    color: #ebc154;    
+}
+
+.text {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #ebc154;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.text span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  font-size: 16px;
+}
+
+.text span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.text:hover span {
+  padding-right: 25px;
+}
+
+.text:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button {
+    text-align: center;
+}
+
+.card-img {
+  background: linear-gradient(rgba(7, 7, 7, 0.507), rgba(7, 7, 7, 0.514)),
+    url("image/matthias-mullie-u2-97eBhFEc-unsplash1\ 1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+
+a {
+    font-size: 16px;
+    color: #EBC154;
+}
+
+a:hover {
+    font-size: 16px;
+    color: #EBC154;
+}
+
+.section-padding {
+    padding-top: 80px;
+}
+
+nav {
+    height: 60px;
+    z-index: 100;
+}
+
+.active .nav-link {
+    color: #EBC154 !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-section {
+  padding-top: 40px;;
+}
+
+footer {
+    margin-top: 250px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/about-video.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0 30px;
+    width: 100%;
+  }
+
+  footer .footer-btn {
+    background-color: #EBC154;
+    color: #fff;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  footer .form-control-lg {
+    font-size: 14px;
+  }
+  
+  footer input.form-control:focus {
+    outline: none !important;
+}
+
+footer input.form-control {
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: #fff !important;
+
+
+
+footer ul.footer-navs {
+    padding-inline-start: 0;
+    margin-left: 0 !important;
+}
+
+  footer .footer-navigation {
+    padding: 0 100px;
+    margin-top: 92px;
+}
+
+  footer hr {
+    border: 0.5px solid #fff;
+    margin-top: 0;
+}
+
+  .footer-nav-link {
+        font-size: 8px;
+        color: #fff;
+        
+  }
+
+  .footer-navigation div {
+    flex-direction: column;
+  }
+
+  footer .social-icons {
+    margin-top: 20px !important;
+  }
+
+  footer .social-icons div {
+    height: 30px;
+   width: 30px;
+  }
+
+  footer .footer-text {
+    width: 100% !important;
+  }
+
+  footer .social-links i {
+    font-size: 14px;
+  }
+
+  footer ul.footer-navs {
+    padding-inline-start: 0;
+    margin-left: 0 !important;
+}
+  
